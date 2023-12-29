@@ -1,0 +1,28 @@
+Variable name,Data type,Variable Type,Description,Example
+Area,object ,Categorical - Nominal,"Classification of area (suburban, urban, rural) according to unofficial census data.",Suburban
+Marital,object ,Categorical - Nominal,Patient's marital status (or the primary insurance holder).,Divorced
+Gender,object ,Categorical - Nominal,"Patient's self-identified gender as male, female, or nonbinary.",Male
+ReAdmis,object ,Categorical - Binary,"Indication of whether the patient was readmitted within a month of discharge (Yes, No).",No
+Soft_drink,object ,Categorical - Binary,"Indication of whether the patient regularly consumes three or more sodas per day (Yes, No).",Yes
+Initial_admin,object ,Categorical - Nominal,"The method of initial hospital admission for the patient (emergency admission, elective admission, observation).",Emergency Admission
+HighBlood,object ,Categorical - Binary,"Indication of whether the patient has hypertension (Yes, No).",Yes
+Stroke,object ,Categorical - Binary,"Indication of whether patient has experienced a stroke in past (Yes, No).",No
+Complication_risk,object ,Categorical - Ordinal,"Patient's risk level for complications as determined by a primary patient assessment (high, medium, low).",Medium
+Overweight,object ,Categorical - Binary,"Specifies if patient is deemed overweight based on age, gender, and height (Yes, No).",No
+Arthritis,object ,Categorical - Binary,"Specifies if patient has arthritis (Yes, No).",Yes
+Diabetes,object ,Categorical - Binary,"Specifies if patient has diabetes (Yes, No).",Yes
+Hyperlipidemia,object ,Categorical - Binary,"Specifies if patient has hyperlipidemia (Yes, No).",No
+BackPain,object ,Categorical - Binary,"Specifies if patient suffers from chronic back pain (Yes, No).",Yes
+Anxiety,object ,Categorical - Binary,"Specifies if patient has an anxiety disorder (Yes, No).",No
+Allergic_rhinitis,object ,Categorical - Binary,"Specifies if patient has allergic rhinitis (Yes, No).",Yes
+Reflux_esophagitis,object ,Categorical - Binary,"Specifies if patient has reflux esophagitis (Yes, No).",No
+Asthma,object ,Categorical - Binary,"Specifies if patient has asthma (Yes, No).",Yes
+Services,object ,Categorical - Nominal,"Main service provided to the patient during hospitalization (blood work, intravenous, CT scan, MRI).",Blood Work
+Item1,int64 ,Categorical - Ordinal,Prompt admission.,3
+Item2,int64 ,Categorical - Ordinal,Timely care.,3
+Item3,int64 ,Categorical - Ordinal,Regular visits.,2
+Item4,int64 ,Categorical - Ordinal,Dependability.,2
+Item5,int64 ,Categorical - Ordinal,Choices.,4
+Item6,int64 ,Categorical - Ordinal,Treatment hours.,3
+Item7,int64 ,Categorical - Ordinal,Polite staff.,3
+Item8,int64 ,Categorical - Ordinal,Doctor's demonstration of active listening.,4
