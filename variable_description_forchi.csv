@@ -18,11 +18,3 @@ Allergic_rhinitis,object ,Categorical - Binary,"Specifies if patient has allergi
 Reflux_esophagitis,object ,Categorical - Binary,"Specifies if patient has reflux esophagitis (Yes, No).",No
 Asthma,object ,Categorical - Binary,"Specifies if patient has asthma (Yes, No).",Yes
 Services,object ,Categorical - Nominal,"Main service provided to the patient during hospitalization (blood work, intravenous, CT scan, MRI).",Blood Work
-Item1,int64 ,Categorical - Ordinal,Prompt admission.,3
-Item2,int64 ,Categorical - Ordinal,Timely care.,3
-Item3,int64 ,Categorical - Ordinal,Regular visits.,2
-Item4,int64 ,Categorical - Ordinal,Dependability.,2
-Item5,int64 ,Categorical - Ordinal,Choices.,4
-Item6,int64 ,Categorical - Ordinal,Treatment hours.,3
-Item7,int64 ,Categorical - Ordinal,Polite staff.,3
-Item8,int64 ,Categorical - Ordinal,Doctor's demonstration of active listening.,4
