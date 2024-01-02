@@ -1,5 +1,11 @@
 {
     "cSpell.words": [
         "dfinal"
-    ]
+    ],
+    "editor.wordWrapColumn": 50,
+    "editor.wordWrap": "bounded",
+    "editor.wrappingIndent": "indent",
+    "notebook.output.wordWrap": true,
+    "html.format.wrapAttributes": "force-aligned",
+    "html.format.wrapLineLength": 80
 }
