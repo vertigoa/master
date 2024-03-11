@@ -1,6 +1,9 @@
 {
     "cSpell.words": [
-        "dfinal"
+        "dfinal",
+        "Homoscedasticity",
+        "Matplotlib",
+        "Scikit"
     ],
     "editor.wordWrapColumn": 50,
     "editor.wordWrap": "bounded",
