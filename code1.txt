@@ -1,0 +1,27 @@
+# import the data and read it into a dataframe, set index to the first column
+df = pd.read_csv('D208_templates/medical_clean.csv', index_col=0)
+
+# Display the first five rows of the data
+df.head()
+
+# View the last 5 rows of the dataframe
+df.tail()
+
+# Check the DataFrame information
+df.info(verbose=True)
+
+data_types = df.dtypes
+
+# Display the unique values count for each column
+unique_values = df.nunique()
+
+# Combine the data types and unique values count into a DataFrame for comparison
+comparison_df = pd.DataFrame({'Data Type': data_types, 'Unique Values': unique_values})
+
+comparison_df.sort_values(by='Unique Values', ascending=False)
+
+# Check for duplicate rows. 
+print(df.duplicated().value_counts())
+
+# Display the count of duplicate rows
+print('Total Duplicated Rows: ', df.duplicated().sum())
