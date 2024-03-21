@@ -4,7 +4,10 @@
         "dfinal",
         "Homoscedasticity",
         "Hyperlipidemia",
+        "interpretability",
         "Matplotlib",
+        "multicollinearity",
+        "Nonbinary",
         "Scikit"
     ],
     "editor.wordWrapColumn": 50,
