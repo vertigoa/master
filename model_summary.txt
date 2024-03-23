@@ -2,63 +2,62 @@
 ==============================================================================
 Dep. Variable:           Initial_days   R-squared:                       0.726
 Model:                            OLS   Adj. R-squared:                  0.725
-Method:                 Least Squares   F-statistic:                     695.4
-Date:                Thu, 21 Mar 2024   Prob (F-statistic):               0.00
-Time:                        02:49:56   Log-Likelihood:                -40411.
+Method:                 Least Squares   F-statistic:                     714.1
+Date:                Sat, 23 Mar 2024   Prob (F-statistic):               0.00
+Time:                        08:25:53   Log-Likelihood:                -40411.
 No. Observations:               10000   AIC:                         8.090e+04
-Df Residuals:                    9961   BIC:                         8.118e+04
-Df Model:                          38                                         
+Df Residuals:                    9962   BIC:                         8.117e+04
+Df Model:                          37                                         
 Covariance Type:            nonrobust                                         
 =======================================================================================================
                                           coef    std err          t      P>|t|      [0.025      0.975]
 -------------------------------------------------------------------------------------------------------
-const                                  19.5835      2.469      7.933      0.000      14.744      24.423
-Children                                0.0403      0.064      0.631      0.528      -0.085       0.166
-Age                                     0.0036      0.007      0.531      0.595      -0.010       0.017
-Income                              -3.504e-06   4.84e-06     -0.723      0.470    -1.3e-05    5.99e-06
-ReAdmis                                46.4461      0.287    162.004      0.000      45.884      47.008
-VitD_levels                            -0.0756      0.069     -1.102      0.271      -0.210       0.059
-Doc_visits                             -0.1719      0.132     -1.301      0.193      -0.431       0.087
-Full_meals_eaten                       -0.1671      0.137     -1.219      0.223      -0.436       0.102
-vitD_supp                               0.2872      0.220      1.307      0.191      -0.144       0.718
-HighBlood                              -0.4425      0.281     -1.574      0.115      -0.994       0.108
-Stroke                                 -0.1995      0.346     -0.577      0.564      -0.877       0.478
-Complication_risk                      -0.3907      0.189     -2.065      0.039      -0.762      -0.020
-Overweight                             -0.2123      0.304     -0.698      0.485      -0.809       0.384
-Arthritis                               0.6689      0.288      2.319      0.020       0.104       1.234
-Diabetes                                0.0166      0.310      0.054      0.957      -0.591       0.624
-Hyperlipidemia                         -0.3957      0.292     -1.353      0.176      -0.969       0.178
-BackPain                                0.3456      0.281      1.229      0.219      -0.205       0.897
-Anxiety                                 0.5335      0.296      1.804      0.071      -0.046       1.113
-Allergic_rhinitis                       0.4146      0.283      1.466      0.143      -0.140       0.969
-Reflux_esophagitis                      0.4226      0.281      1.506      0.132      -0.128       0.973
-Asthma                                  0.0449      0.305      0.147      0.883      -0.553       0.642
-S_T_Admission                           0.4000      0.199      2.011      0.044       0.010       0.790
-S_T_Treatment                           0.1360      0.183      0.741      0.459      -0.224       0.496
-S_T_Visits                             -0.1315      0.169     -0.776      0.438      -0.463       0.200
-S_Reliability                           0.3920      0.151      2.598      0.009       0.096       0.688
-S_Options                               0.0080      0.159      0.050      0.960      -0.304       0.320
-S_Hours_Treatment                      -0.2075      0.164     -1.265      0.206      -0.529       0.114
-S_Staff                                -0.2479      0.154     -1.605      0.109      -0.551       0.055
-S_Active_Listening                     -0.1946      0.146     -1.337      0.181      -0.480       0.091
-Area_Suburban                           0.1595      0.338      0.473      0.636      -0.502       0.821
-Area_Urban                              0.3718      0.339      1.098      0.272      -0.292       1.036
-Marital_Married                        -0.0280      0.438     -0.064      0.949      -0.887       0.831
-Marital_Never Married                   0.4316      0.440      0.981      0.327      -0.431       1.294
-Marital_Separated                       0.7886      0.440      1.794      0.073      -0.073       1.650
-Marital_Widowed                         0.2779      0.437      0.636      0.525      -0.578       1.134
-Gender_Male                            -0.0910      0.279     -0.326      0.745      -0.639       0.457
-Gender_Nonbinary                       -0.2852      0.964     -0.296      0.767      -2.175       1.605
-Initial_admin_Emergency Admission      -1.5966      0.338     -4.728      0.000      -2.259      -0.935
-Initial_admin_Observation Admission    -0.2408      0.393     -0.612      0.541      -1.012       0.530
+const                                  19.4602      2.467      7.889      0.000      14.625      24.295
+Children                                0.0401      0.064      0.628      0.530      -0.085       0.165
+Age                                     0.0035      0.007      0.521      0.603      -0.010       0.017
+Income                              -3.442e-06   4.84e-06     -0.710      0.477   -1.29e-05    6.06e-06
+ReAdmis                                46.4505      0.287    162.028      0.000      45.889      47.012
+VitD_levels                            -0.0775      0.069     -1.130      0.259      -0.212       0.057
+Doc_visits                             -0.1714      0.132     -1.297      0.195      -0.430       0.088
+vitD_supp                               0.2924      0.220      1.331      0.183      -0.138       0.723
+HighBlood                              -0.4475      0.281     -1.592      0.111      -0.998       0.103
+Stroke                                 -0.2008      0.346     -0.581      0.561      -0.878       0.477
+Complication_risk                      -0.3944      0.189     -2.084      0.037      -0.765      -0.023
+Overweight                             -0.2090      0.304     -0.687      0.492      -0.805       0.387
+Arthritis                               0.6649      0.288      2.305      0.021       0.100       1.230
+Diabetes                                0.0132      0.310      0.042      0.966      -0.595       0.621
+Hyperlipidemia                         -0.3959      0.292     -1.354      0.176      -0.969       0.177
+BackPain                                0.3505      0.281      1.247      0.213      -0.201       0.902
+Anxiety                                 0.5303      0.296      1.793      0.073      -0.049       1.110
+Allergic_rhinitis                       0.4092      0.283      1.447      0.148      -0.145       0.963
+Reflux_esophagitis                      0.4223      0.281      1.505      0.132      -0.128       0.972
+Asthma                                  0.0406      0.305      0.133      0.894      -0.557       0.638
+S_T_Admission                           0.4003      0.199      2.013      0.044       0.010       0.790
+S_T_Treatment                           0.1342      0.183      0.732      0.464      -0.225       0.494
+S_T_Visits                             -0.1296      0.169     -0.765      0.444      -0.462       0.202
+S_Reliability                           0.3911      0.151      2.592      0.010       0.095       0.687
+S_Options                               0.0093      0.159      0.058      0.953      -0.302       0.321
+S_Hours_Treatment                      -0.2056      0.164     -1.254      0.210      -0.527       0.116
+S_Staff                                -0.2466      0.154     -1.596      0.110      -0.549       0.056
+S_Active_Listening                     -0.1981      0.145     -1.362      0.173      -0.483       0.087
+Area_Suburban                           0.1602      0.338      0.475      0.635      -0.501       0.822
+Area_Urban                              0.3731      0.339      1.102      0.271      -0.291       1.037
+Marital_Married                        -0.0263      0.438     -0.060      0.952      -0.885       0.832
+Marital_Never Married                   0.4302      0.440      0.977      0.328      -0.433       1.293
+Marital_Separated                       0.7953      0.440      1.809      0.070      -0.066       1.657
+Marital_Widowed                         0.2762      0.437      0.632      0.527      -0.580       1.132
+Gender_Male                            -0.0963      0.279     -0.344      0.731      -0.644       0.452
+Gender_Nonbinary                       -0.2836      0.964     -0.294      0.769      -2.174       1.606
+Initial_admin_Emergency Admission      -1.6011      0.338     -4.741      0.000      -2.263      -0.939
+Initial_admin_Observation Admission    -0.2463      0.393     -0.626      0.531      -1.018       0.525
 ==============================================================================
-Omnibus:                     1947.169   Durbin-Watson:                   1.272
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):             3294.954
+Omnibus:                     1948.374   Durbin-Watson:                   1.272
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             3298.126
 Skew:                           1.318   Prob(JB):                         0.00
-Kurtosis:                       3.982   Cond. No.                     8.89e+05
+Kurtosis:                       3.983   Cond. No.                     8.88e+05
 ==============================================================================
 
 Notes:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-[2] The condition number is large, 8.89e+05. This might indicate that there are
+[2] The condition number is large, 8.88e+05. This might indicate that there are
 strong multicollinearity or other numerical problems.
