@@ -9,7 +9,8 @@
         "Matplotlib",
         "multicollinearity",
         "Nonbinary",
-        "Scikit"
+        "Scikit",
+        "Statsmodels"
     ],
     "editor.wordWrapColumn": 50,
     "editor.wordWrap": "bounded",
