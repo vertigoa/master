@@ -4,7 +4,7 @@ Dep. Variable:           Initial_days   R-squared:                       0.726
 Model:                            OLS   Adj. R-squared:                  0.725
 Method:                 Least Squares   F-statistic:                     714.1
 Date:                Sat, 23 Mar 2024   Prob (F-statistic):               0.00
-Time:                        08:25:53   Log-Likelihood:                -40411.
+Time:                        22:28:33   Log-Likelihood:                -40411.
 No. Observations:               10000   AIC:                         8.090e+04
 Df Residuals:                    9962   BIC:                         8.117e+04
 Df Model:                          37                                         
