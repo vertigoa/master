@@ -10,6 +10,7 @@
         "multicollinearity",
         "Nonbinary",
         "Scikit",
+        "Statology",
         "Statsmodels"
     ],
     "editor.wordWrapColumn": 50,
@@ -17,5 +18,11 @@
     "editor.wrappingIndent": "indent",
     "notebook.output.wordWrap": true,
     "html.format.wrapAttributes": "force-aligned",
-    "html.format.wrapLineLength": 80
+    "html.format.wrapLineLength": 80,
+    "notebook.find.scope": {
+        "markupSource": true,
+        "markupPreview": true,
+        "codeSource": true,
+        "codeOutput": true
+    }
 }
